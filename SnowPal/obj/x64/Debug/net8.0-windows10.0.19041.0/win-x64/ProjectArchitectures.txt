@@ -1,0 +1,1 @@
+C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\SnowPal.csproj;x64

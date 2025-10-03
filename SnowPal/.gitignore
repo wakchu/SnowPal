@@ -1,0 +1,42 @@
+﻿# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build Folders
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+
+# Visual Studio cache files
+*.cache
+*.ilk
+*.log
+*.tlog
+*.tmp
+*.tmp_proj
+*.pch
+
+# NuGet packages
+*.nupkg
+packages/
+# If using PackageReference in csproj, comment this:
+# packages.config
+
+# Rider
+.idea/
+
+# Windows files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Other
+*.DS_Store
