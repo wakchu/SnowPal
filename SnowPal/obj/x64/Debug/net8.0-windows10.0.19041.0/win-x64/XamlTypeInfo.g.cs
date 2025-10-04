@@ -226,7 +226,7 @@ namespace SnowPal.SnowPal_XamlTypeInfo
         
         private void InitTypeTables()
         {
-            _typeNameTable = new string[15];
+            _typeNameTable = new string[19];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -238,12 +238,16 @@ namespace SnowPal.SnowPal_XamlTypeInfo
             _typeNameTable[8] = "Microsoft.UI.Xaml.Controls.UserControl";
             _typeNameTable[9] = "SnowPal.MainViewModel";
             _typeNameTable[10] = "CommunityToolkit.Mvvm.ComponentModel.ObservableObject";
-            _typeNameTable[11] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[12] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[13] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
-            _typeNameTable[14] = "Int32";
+            _typeNameTable[11] = "SnowPal.Pages.MenuPage";
+            _typeNameTable[12] = "Windows.UI.Color";
+            _typeNameTable[13] = "System.ValueType";
+            _typeNameTable[14] = "Byte";
+            _typeNameTable[15] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[16] = "Microsoft.UI.Xaml.DependencyObject";
+            _typeNameTable[17] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[18] = "Int32";
 
-            _typeTable = new global::System.Type[15];
+            _typeTable = new global::System.Type[19];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -255,10 +259,14 @@ namespace SnowPal.SnowPal_XamlTypeInfo
             _typeTable[8] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
             _typeTable[9] = typeof(global::SnowPal.MainViewModel);
             _typeTable[10] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject);
-            _typeTable[11] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[12] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[13] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
-            _typeTable[14] = typeof(global::System.Int32);
+            _typeTable[11] = typeof(global::SnowPal.Pages.MenuPage);
+            _typeTable[12] = typeof(global::Windows.UI.Color);
+            _typeTable[13] = typeof(global::System.ValueType);
+            _typeTable[14] = typeof(global::System.Byte);
+            _typeTable[15] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[16] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
+            _typeTable[17] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[18] = typeof(global::System.Int32);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -297,14 +305,19 @@ namespace SnowPal.SnowPal_XamlTypeInfo
         private object Activate_4_MainWindow() { return new global::SnowPal.MainWindow(); }
         private object Activate_6_GamePage() { return new global::SnowPal.Pages.GamePage(); }
         private object Activate_9_MainViewModel() { return new global::SnowPal.MainViewModel(); }
-        private object Activate_11_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_11_MenuPage() { return new global::SnowPal.Pages.MenuPage(); }
+        private object Activate_15_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
         private void StaticInitializer_4_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::SnowPal.MainWindow).TypeHandle);
         private void StaticInitializer_6_GamePage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::SnowPal.Pages.GamePage).TypeHandle);
         private void StaticInitializer_9_MainViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::SnowPal.MainViewModel).TypeHandle);
         private void StaticInitializer_10_ObservableObject() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject).TypeHandle);
-        private void StaticInitializer_11_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
-        private void StaticInitializer_13_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
+        private void StaticInitializer_11_MenuPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::SnowPal.Pages.MenuPage).TypeHandle);
+        private void StaticInitializer_12_Color() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Windows.UI.Color).TypeHandle);
+        private void StaticInitializer_13_ValueType() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.ValueType).TypeHandle);
+        private void StaticInitializer_14_Byte() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Byte).TypeHandle);
+        private void StaticInitializer_15_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
+        private void StaticInitializer_17_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -312,7 +325,7 @@ namespace SnowPal.SnowPal_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
-        private void VectorAdd_13_IList(object instance, object item)
+        private void VectorAdd_17_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -393,10 +406,41 @@ namespace SnowPal.SnowPal_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 11:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 11:   //  SnowPal.Pages.MenuPage
+                userType = new global::SnowPal.SnowPal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_11_MenuPage;
+                userType.StaticInitializer = StaticInitializer_11_MenuPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 12:   //  Windows.UI.Color
+                userType = new global::SnowPal.SnowPal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType.StaticInitializer = StaticInitializer_12_Color;
+                userType.AddMemberName("A");
+                userType.AddMemberName("R");
+                userType.AddMemberName("G");
+                userType.AddMemberName("B");
+                xamlType = userType;
+                break;
+
+            case 13:   //  System.ValueType
+                userType = new global::SnowPal.SnowPal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.StaticInitializer = StaticInitializer_13_ValueType;
+                xamlType = userType;
+                break;
+
+            case 14:   //  Byte
+                userType = new global::SnowPal.SnowPal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType.StaticInitializer = StaticInitializer_14_Byte;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 15:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::SnowPal.SnowPal_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_11_TreeViewNode;
-                userType.StaticInitializer = StaticInitializer_11_TreeViewNode;
+                userType.Activator = Activate_15_TreeViewNode;
+                userType.StaticInitializer = StaticInitializer_15_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -408,19 +452,19 @@ namespace SnowPal.SnowPal_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 12:   //  Microsoft.UI.Xaml.DependencyObject
+            case 16:   //  Microsoft.UI.Xaml.DependencyObject
                 xamlType = new global::SnowPal.SnowPal_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 13:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 17:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::SnowPal.SnowPal_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_13_IList;
-                userType.CollectionAdd = VectorAdd_13_IList;
+                userType.StaticInitializer = StaticInitializer_17_IList;
+                userType.CollectionAdd = VectorAdd_17_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 14:   //  Int32
+            case 18:   //  Int32
                 xamlType = new global::SnowPal.SnowPal_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -497,52 +541,92 @@ namespace SnowPal.SnowPal_XamlTypeInfo
             var that = (global::SnowPal.Pages.GamePage)instance;
             return that.ViewModel;
         }
-        private object get_2_TreeViewNode_Children(object instance)
+        private object get_2_Color_A(object instance)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            return that.A;
+        }
+        private void set_2_Color_A(object instance, object Value)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            that.A = (global::System.Byte)Value;
+        }
+        private object get_3_Color_R(object instance)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            return that.R;
+        }
+        private void set_3_Color_R(object instance, object Value)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            that.R = (global::System.Byte)Value;
+        }
+        private object get_4_Color_G(object instance)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            return that.G;
+        }
+        private void set_4_Color_G(object instance, object Value)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            that.G = (global::System.Byte)Value;
+        }
+        private object get_5_Color_B(object instance)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            return that.B;
+        }
+        private void set_5_Color_B(object instance, object Value)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            that.B = (global::System.Byte)Value;
+        }
+        private object get_6_TreeViewNode_Children(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Children;
         }
-        private object get_3_TreeViewNode_Content(object instance)
+        private object get_7_TreeViewNode_Content(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Content;
         }
-        private void set_3_TreeViewNode_Content(object instance, object Value)
+        private void set_7_TreeViewNode_Content(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.Content = (global::System.Object)Value;
         }
-        private object get_4_TreeViewNode_Depth(object instance)
+        private object get_8_TreeViewNode_Depth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Depth;
         }
-        private object get_5_TreeViewNode_HasChildren(object instance)
+        private object get_9_TreeViewNode_HasChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasChildren;
         }
-        private object get_6_TreeViewNode_HasUnrealizedChildren(object instance)
+        private object get_10_TreeViewNode_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_6_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
+        private void set_10_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_7_TreeViewNode_IsExpanded(object instance)
+        private object get_11_TreeViewNode_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.IsExpanded;
         }
-        private void set_7_TreeViewNode_IsExpanded(object instance, object Value)
+        private void set_11_TreeViewNode_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
-        private object get_8_TreeViewNode_Parent(object instance)
+        private object get_12_TreeViewNode_Parent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Parent;
@@ -568,50 +652,74 @@ namespace SnowPal.SnowPal_XamlTypeInfo
                 xamlMember.Getter = get_1_GamePage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
+            case "Windows.UI.Color.A":
+                userType = (global::SnowPal.SnowPal_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::SnowPal.SnowPal_XamlTypeInfo.XamlMember(this, "A", "Byte");
+                xamlMember.Getter = get_2_Color_A;
+                xamlMember.Setter = set_2_Color_A;
+                break;
+            case "Windows.UI.Color.R":
+                userType = (global::SnowPal.SnowPal_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::SnowPal.SnowPal_XamlTypeInfo.XamlMember(this, "R", "Byte");
+                xamlMember.Getter = get_3_Color_R;
+                xamlMember.Setter = set_3_Color_R;
+                break;
+            case "Windows.UI.Color.G":
+                userType = (global::SnowPal.SnowPal_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::SnowPal.SnowPal_XamlTypeInfo.XamlMember(this, "G", "Byte");
+                xamlMember.Getter = get_4_Color_G;
+                xamlMember.Setter = set_4_Color_G;
+                break;
+            case "Windows.UI.Color.B":
+                userType = (global::SnowPal.SnowPal_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::SnowPal.SnowPal_XamlTypeInfo.XamlMember(this, "B", "Byte");
+                xamlMember.Getter = get_5_Color_B;
+                xamlMember.Setter = set_5_Color_B;
+                break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
                 userType = (global::SnowPal.SnowPal_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::SnowPal.SnowPal_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
-                xamlMember.Getter = get_2_TreeViewNode_Children;
+                xamlMember.Getter = get_6_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
                 userType = (global::SnowPal.SnowPal_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::SnowPal.SnowPal_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_3_TreeViewNode_Content;
-                xamlMember.Setter = set_3_TreeViewNode_Content;
+                xamlMember.Getter = get_7_TreeViewNode_Content;
+                xamlMember.Setter = set_7_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
                 userType = (global::SnowPal.SnowPal_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::SnowPal.SnowPal_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_4_TreeViewNode_Depth;
+                xamlMember.Getter = get_8_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
                 userType = (global::SnowPal.SnowPal_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::SnowPal.SnowPal_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_5_TreeViewNode_HasChildren;
+                xamlMember.Getter = get_9_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
                 userType = (global::SnowPal.SnowPal_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::SnowPal.SnowPal_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
-                xamlMember.Getter = get_6_TreeViewNode_HasUnrealizedChildren;
-                xamlMember.Setter = set_6_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Getter = get_10_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Setter = set_10_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
                 userType = (global::SnowPal.SnowPal_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::SnowPal.SnowPal_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_7_TreeViewNode_IsExpanded;
-                xamlMember.Setter = set_7_TreeViewNode_IsExpanded;
+                xamlMember.Getter = get_11_TreeViewNode_IsExpanded;
+                xamlMember.Setter = set_11_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
                 userType = (global::SnowPal.SnowPal_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::SnowPal.SnowPal_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember.Getter = get_8_TreeViewNode_Parent;
+                xamlMember.Getter = get_12_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
             }

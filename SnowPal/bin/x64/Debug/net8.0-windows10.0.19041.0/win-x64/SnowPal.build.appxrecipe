@@ -37,6 +37,27 @@
     <AppxPackagedFile Include="C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>SnowPal.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\Assets\snow-0.png">
+      <PackagePath>Assets\snow-0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\Assets\snow-1.png">
+      <PackagePath>Assets\snow-1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\Assets\snow-2.png">
+      <PackagePath>Assets\snow-2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\Assets\snow-3.png">
+      <PackagePath>Assets\snow-3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\Assets\snow-4.png">
+      <PackagePath>Assets\snow-4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\Assets\snow-5.png">
+      <PackagePath>Assets\snow-5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\Assets\snow-6.png">
+      <PackagePath>Assets\snow-6.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\StefanoBordoni\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.20\runtimes\win-x64\lib\net8.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
     </AppxPackagedFile>

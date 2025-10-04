@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SnowPal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6693f4ae73bc0ab44ba1b1229b09e84356f621bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("SnowPal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SnowPal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

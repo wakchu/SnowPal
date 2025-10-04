@@ -24,7 +24,7 @@ namespace SnowPal
         public MainWindow()
         {
             this.InitializeComponent();
-            MainFrame.Navigate(typeof(GamePage));
+            MainFrame.Navigate(typeof(MenuPage));
         }
     }
 }

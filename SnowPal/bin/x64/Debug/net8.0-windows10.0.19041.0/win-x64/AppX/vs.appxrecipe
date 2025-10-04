@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-10-03T22:00:46.154</Modified>
+      <Modified>2025-10-04T14:24:10.195</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-10-03T22:00:45.780</Modified>
+      <Modified>2025-10-04T14:24:09.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SnowPal.runtimeconfig.json">
       <PackagePath>SnowPal.runtimeconfig.json</PackagePath>
@@ -43,11 +43,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SnowPal.dll">
       <PackagePath>SnowPal.dll</PackagePath>
-      <Modified>2025-10-03T22:00:44.830</Modified>
+      <Modified>2025-10-04T14:24:07.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>SnowPal.exe</PackagePath>
-      <Modified>2025-10-03T22:00:44.884</Modified>
+      <Modified>2025-10-04T14:24:08.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\Assets\snow-0.png">
+      <PackagePath>Assets\snow-0.png</PackagePath>
+      <Modified>2025-10-04T14:06:46.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\Assets\snow-1.png">
+      <PackagePath>Assets\snow-1.png</PackagePath>
+      <Modified>2025-10-04T14:06:53.262</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\Assets\snow-2.png">
+      <PackagePath>Assets\snow-2.png</PackagePath>
+      <Modified>2025-10-04T14:06:58.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\Assets\snow-3.png">
+      <PackagePath>Assets\snow-3.png</PackagePath>
+      <Modified>2025-10-04T14:07:03.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\Assets\snow-4.png">
+      <PackagePath>Assets\snow-4.png</PackagePath>
+      <Modified>2025-10-04T14:07:07.451</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\Assets\snow-5.png">
+      <PackagePath>Assets\snow-5.png</PackagePath>
+      <Modified>2025-10-04T14:07:12.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\Assets\snow-6.png">
+      <PackagePath>Assets\snow-6.png</PackagePath>
+      <Modified>2025-10-04T14:07:17.248</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\StefanoBordoni\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.20\runtimes\win-x64\lib\net8.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -891,7 +919,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SnowPal.deps.json">
       <PackagePath>SnowPal.deps.json</PackagePath>
-      <Modified>2025-10-03T22:00:45.320</Modified>
+      <Modified>2025-10-04T14:24:08.962</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\StefanoBordoni\source\repos\SnowPal\SnowPal\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
