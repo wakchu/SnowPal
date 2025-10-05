@@ -18,7 +18,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="50*"/>
             <ColumnDefinition Width="50*"/>
-        </Grid.ColumnDefinitions>
+        </Grid.ColumnDefinitions> 
 
         <!-- Title -->
         <TextBlock Text="SnowPal" Style="{StaticResource TitleTextStyle}" Grid.ColumnSpan="2"/>
