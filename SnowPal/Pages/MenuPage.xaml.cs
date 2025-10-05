@@ -41,7 +41,7 @@ namespace SnowPal.Pages
 
         private void Options_Click(object sender, RoutedEventArgs e)
         {
-            // TODO: Navigate to the Options page
+            Frame.Navigate(typeof(OptionsPage));
         }
 
         private void Credits_Click(object sender, RoutedEventArgs e)

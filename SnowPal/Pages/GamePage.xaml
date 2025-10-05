@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Page
     x:Class="SnowPal.Pages.GamePage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -9,7 +8,7 @@
     mc:Ignorable="d"
     x:Name="ThisPage">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="{ThemeResource BackgroundBrush}">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -24,6 +23,8 @@
         <!-- Title -->
         <TextBlock Text="SnowPal" Style="{StaticResource TitleTextStyle}" Grid.ColumnSpan="2"/>
 
+        <!-- Back Button -->
+        <Button Content="Back" Click="BackButton_Click" ></Button>
         <!-- Drawing -->
         <Image x:Name="Image" Grid.Row="1" Grid.Column="0" Style="{StaticResource ImageStyle}" Source="{x:Bind ViewModel.ImageSource, Mode=OneWay}"/>
         <!-- Guesses Left Display -->

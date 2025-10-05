@@ -26,5 +26,8 @@ namespace SnowPal.Pages
         {
             this.InitializeComponent();
         }
+
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        { Frame.Navigate(typeof(MenuPage)); }
     }
 }
