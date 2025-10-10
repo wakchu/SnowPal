@@ -46,7 +46,7 @@ namespace SnowPal.Pages
 
         private void Credits_Click(object sender, RoutedEventArgs e)
         {
-            // TODO: Navigate to the Credits page
+            Frame.Navigate(typeof(CreditsPage));
         }
 
         private void Exit_Click(object sender, RoutedEventArgs e)
